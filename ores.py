@@ -191,4 +191,70 @@ ORES = {
         'mexallon': 2640,
         'isogen': 330,
     },
+    'mercoxit': {
+        'objectID': 11396,
+        'morphite': 3
+    },
+    'compressed mercoxit': {
+        'objectID': 28413,
+        'morphite': 300
+    },
+    'magma mercoxit': {
+        'objectID': 17869,
+        'morphite': 3.15
+    },
+    'compressed magma mercoxit': {
+        'objectID': 28412,
+        'morphite': 315
+    },
+    'vitreous mercoxit': {
+        'objectID': 17870,
+        'morphite': 3.3
+    },
+    'compressed vitreous mercoxit': {
+        'objectID': 28414,
+        'morphite': 330
+    },
+    'spodumain': {
+        'objectID': 19,
+        'tritanium': 5600,
+        'pyerite': 120.5,
+        'mexallon': 21,
+        'isogen': 4.5
+    },
+    'compressed spodumain': {
+        'objectID': 28420,
+        'tritanium': 560000,
+        'pyerite': 12050,
+        'mexallon': 2100,
+        'isogen': 450
+    },
+    'bright spodumain': {
+        'objectID': 17466,
+        'tritanium': 5880,
+        'pyerite': 126.53,
+        'mexallon': 22.05,
+        'isogen': 4.73
+    },
+    'compressed bright spodumain': {
+        'objectID': 28418,
+        'tritanium': 588000,
+        'pyerite': 12653,
+        'mexallon': 2205,
+        'isogen': 473
+    },
+    'gleaming spodumain': {
+        'objectID': 17467,
+        'tritanium': 6160,
+        'pyerite': 132.55,
+        'mexallon': 23.1,
+        'isogen': 4.95
+    },
+    'compressed gleaming spodumain': {
+        'objectID': 28419,
+        'tritanium': 616000,
+        'pyerite': 13255,
+        'mexallon': 2310,
+        'isogen': 495
+    },
 }
