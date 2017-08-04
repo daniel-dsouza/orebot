@@ -1,7 +1,8 @@
 from ores import ORES, MINERALS
 
-from functools import reduce, wraps
+import codecs
 from datetime import datetime, timedelta
+from functools import reduce, wraps
 import json
 from urllib.request import urlopen, Request, HTTPError
 from urllib.parse import urlencode
@@ -72,7 +73,8 @@ def check_cache(func):
 
             try:
                 with urlopen(uri+urlencode(get_params)) as response:
-                    resp_json = json.load(response)
+                    reader = codecs.getreader('utf-8')
+                    resp_json = json.load(reader(response))
                     for item in resp_json:
                         price_cache[item['sell']['forQuery']['types'][0]] = item['sell']['avg']
 
